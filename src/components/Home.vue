@@ -14,13 +14,10 @@ export default {
 }
 </script>
 <style>
-    #home{
-        
+    #home{      
         width: 100%;
         padding: 10px;
         background-color: rgb(179, 150, 97);
     }
-    a{
-        margin-left: 20px;
-    }
+    
 </style>

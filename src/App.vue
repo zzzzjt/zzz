@@ -44,4 +44,7 @@ export default {
     padding: 10px;
     background-color: rgb(240, 193, 124);
   }
+  a{
+        margin-left: 20px;
+    }
 </style>
