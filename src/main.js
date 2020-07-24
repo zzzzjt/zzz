@@ -1,13 +1,13 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
-import App from './App.vue'
-import Home from './components/Home.vue'
-import Music from './components/Music.vue'
-import Discover from './components/Discover.vue'
-import Toplist from './components/Toplist.vue'
-import Playlist from './components/Playlist.vue'
-import Login from './components/Login.vue'
 import axios from 'axios'
+import VueRouter from 'vue-router'
+const App = () => import('./App.vue');
+const Home = () => import('./components/Home.vue');
+const Music = () => import('./components/Music.vue');
+const Discover = () => import('./components/Discover.vue');
+const Toplist = () => import( './components/Toplist.vue');
+const Playlist = () => import('./components/Playlist.vue');
+const Login = ()=> import('./components/Login.vue');
 
 
 Vue.config.productionTip = false
